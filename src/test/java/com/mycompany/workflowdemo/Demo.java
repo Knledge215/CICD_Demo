@@ -39,6 +39,7 @@ public class Demo
         System.out.println("Felicia Tara Huda Rodney...our team");
         System.out.println("Our New Test Case....");
         System.out.println("Page title: " + driver.getTitle());
+        System.out.println(" This test case passed");
         if(driver.getTitle().contains("Google"))
         {
 			System.out.println("Test Passed: Title contains Google");
